@@ -35,7 +35,7 @@
 	<span class="icon-bar"></span>
 </a>
   <div class="navbar-inner">
-    <a class="brand" href="index.html"><img src="themes/images/logo.png" alt="Bootsshop"/></a>
+    <a class="brand" href="index.php"><img src="themes/images/logo.png" alt="Bootsshop"/></a>
 		<form class="form-inline navbar-search" method="post" action="products.html" >
 		<input id="srchFld" class="srchTxt" type="text" />
 		  <select class="srchTxt">
@@ -89,7 +89,7 @@
 		<div class="carousel-inner">
 		  <div class="item active">
 		  <div class="container">
-			<a href="register.html"><img style="width:100%" src="themes/images/carousel/1.png" alt="special offers"/></a>
+			<a href="signup.php"><img style="width:100%" src="themes/images/carousel/1.png" alt="special offers"/></a>
 			<div class="carousel-caption">
 				  <h4>Second Thumbnail label</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -98,7 +98,7 @@
 		  </div>
 		  <div class="item">
 		  <div class="container">
-			<a href="register.html"><img style="width:100%" src="themes/images/carousel/2.png" alt=""/></a>
+			<a href="signup.php"><img style="width:100%" src="themes/images/carousel/2.png" alt=""/></a>
 				<div class="carousel-caption">
 				  <h4>Second Thumbnail label</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -107,7 +107,7 @@
 		  </div>
 		  <div class="item">
 		  <div class="container">
-			<a href="register.html"><img src="themes/images/carousel/3.png" alt=""/></a>
+			<a href="signup.php"><img src="themes/images/carousel/3.png" alt=""/></a>
 			<div class="carousel-caption">
 				  <h4>Second Thumbnail label</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -117,7 +117,7 @@
 		  </div>
 		   <div class="item">
 		   <div class="container">
-			<a href="register.html"><img src="themes/images/carousel/4.png" alt=""/></a>
+			<a href="signup.php"><img src="themes/images/carousel/4.png" alt=""/></a>
 			<div class="carousel-caption">
 				  <h4>Second Thumbnail label</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -127,7 +127,7 @@
 		  </div>
 		   <div class="item">
 		   <div class="container">
-			<a href="register.html"><img src="themes/images/carousel/5.png" alt=""/></a>
+			<a href="signup.php"><img src="themes/images/carousel/5.png" alt=""/></a>
 			<div class="carousel-caption">
 				  <h4>Second Thumbnail label</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -136,7 +136,7 @@
 		  </div>
 		   <div class="item">
 		   <div class="container">
-			<a href="register.html"><img src="themes/images/carousel/6.png" alt=""/></a>
+			<a href="signup.php"><img src="themes/images/carousel/6.png" alt=""/></a>
 			<div class="carousel-caption">
 				  <h4>Second Thumbnail label</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -428,17 +428,17 @@
 		<div class="row">
 			<div class="span3">
 				<h5>Contact Us</h5>
-				<a href="login.html">Office Address :</a>
-				<a href="login.html">723 Rue Papineau Ouest</a> 
-				<a href="login.html">Montreal, Quebec</a> 
-				<a href="login.html">H3P2N7, Canada</a>  
+				<a href="contact.php">Office Address :</a>
+				<a href="contact.php">723 Rue Papineau Ouest</a> 
+				<a href="contact.php">Montreal, Quebec</a> 
+				<a href="contact.php">H3P2N7, Canada</a>  
 			 </div>
 			<div class="span3">
 				<h5>Customer Support</h5>
-				<a href="register.html">Email id : info@rentabike.com</a>  
-				<a href="legal_notice.html">Tel : +1 803-687-6777</a>  
-				<a href="tac.html">Mobile : +1 514-677-8767</a> 
-				<a href="faq.html">Fax : +1 766-877-9998</a>
+				<a href="signin.php">Email id : info@rentabike.com</a>  
+				<a href="signin.php">Tel : +1 803-687-6777</a>  
+				<a href="signin.php">Mobile : +1 514-677-8767</a> 
+				<a href="signin.php">Fax : +1 766-877-9998</a>
 			 </div>
 			<div class="span3">
 				<h5>OUR OFFERS</h5>
