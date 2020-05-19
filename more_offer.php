@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -49,7 +49,7 @@
 		  <button type="submit" id="submitButton" class="btn btn-primary">Go</button>
     </form>
     <ul id="topMenu" class="nav pull-right">
-	 <li class=""><a href="special_offer.php" style="color: black">Specials Offer</a></li>
+	 <li class="" ><a href="special_offer.php" style="color: black">Specials Offer</a></li>
 	 <li class=""><a href="normal.php" style="color: black">Delivery</a></li>
 	 <li class=""><a href="contact.php" style="color: black">Contact</a></li>
 	 <li class="">
@@ -60,7 +60,7 @@
 </div>
 </div>
 </div>
-
+<!-- Header End====================================================================== -->
 <div id="mainBody">
 	<div class="container">
 	<div class="row">
@@ -115,115 +115,68 @@
 			  </div><br/>
 	</div>
 <!-- Sidebar end=============================================== -->
-		<div class="span9">		
-
+	<div class="span9">
     <ul class="breadcrumb">
 		<li><a href="index.html">Home</a> <span class="divider">/</span></li>
-		<li class="active">Registration</li>
+		<li class="active">Special offers</li>
     </ul>
-	<h3> Registration</h3>	
-	<div class="well">
-	<!--
-	<div class="alert alert-info fade in">
-		<button type="button" class="close" data-dismiss="alert">×</button>
-		<strong>Lorem Ipsum is simply dummy</strong> text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-	 </div>
-	<div class="alert fade in">
-		<button type="button" class="close" data-dismiss="alert">×</button>
-		<strong>Lorem Ipsum is simply dummy</strong> text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-	 </div>
-	 <div class="alert alert-block alert-error fade in">
-		<button type="button" class="close" data-dismiss="alert">×</button>
-		<strong>Lorem Ipsum is simply</strong> dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-	 </div> -->
-	<form class="form-horizontal" method="post">
-		<h4>Your personal information</h4>
-		<div class="control-group">
-			<label class="control-label" for="inputFname1">First name <sup>*</sup></label>
-			<div class="controls">
-			  <input type="text" id="inputFname1" placeholder="First Name" name="firstname" required>
-			</div>
-		 </div>
-		 <div class="control-group">
-			<label class="control-label" for="inputLnam">Last name <sup>*</sup></label>
-			<div class="controls">
-			  <input type="text" id="inputLnam" placeholder="Last Name" name="lastname" required>
-			</div>
-		 </div>
-		<div class="control-group">
-		<label class="control-label" for="input_email">Email <sup>*</sup></label>
-		<div class="controls">
-		  <input type="text" id="input_email" placeholder="Email" name="email" required>
-		</div>
-	  </div>	  
-	<div class="control-group">
-		<label class="control-label" for="inputPassword1">Password <sup>*</sup></label>
-		<div class="controls">
-		  <input type="password" id="inputPassword1" placeholder="Password" name="password" required>
-		</div>
-	  </div>	  
-
-	<!-- <div class="alert alert-block alert-error fade in">
-		<button type="button" class="close" data-dismiss="alert">×</button>
-		<strong>Lorem Ipsum is simply</strong> dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-	 </div>	 -->
-		
-		<div class="control-group">
-			<label class="control-label" for="aditionalInfo">Address <sup>*</sup></label>
-			<div class="controls">
-			  <textarea id="aditionalInfo" cols="26" rows="3" name="address" placeholder="Address" required></textarea>
-			</div>
-		</div>
-		
-		<div class="control-group">
-			<label class="control-label" for="mobile">Mobile Phone <sup>*</sup></label>
-			<div class="controls">
-			  <input type="text"  name="mobile" id="mobile" placeholder="Mobile Phone" name="mobile" required /> 
-			</div>
-		</div>
-		
-	<p><sup>*</sup>Required field	</p>
+	<h4> 20% Discount Special offer<small class="pull-right"> 6 Bikes are available </small></h4>	
+	<hr class="soft"/>
 	
-	<div class="control-group">
-			<div class="controls">
-				<input class="btn btn-large btn-success" type="submit" name="save" value="Register" />
-			</div>
-		</div>		
-	</form>
-	<?php
-						if(isset($_POST['save'])){
-							include 'includes/config.php';
-							$firstname = $_POST['firstname'];
-							$lastname = $_POST['lastname'];
-							$email = $_POST['email'];
-							$password = $_POST['password'];
-							$address = $_POST['address'];
-							$mobile = $_POST['mobile'];
-							
-							$qry = "INSERT INTO users (firstname,lastname,email,password,address,mobile)
-							VALUES('$firstname','$lastname','$email','$password','$address','$mobile')";
-							$result = $conn->query($qry);
-							if($result == TRUE){
-								echo "<script type = \"text/javascript\">
-											alert(\"Successfully Registered.\");
-											window.location = (\"account.php\")
-											</script>";
-							} else{
-								echo "<script type = \"text/javascript\">
-											alert(\"Registration Failed. Try Again\");
-											window.location = (\"signup.php\")
-											</script>";
-							}
-						}
-						
-					  ?>
-</div>
-			
+<ul class="thumbnails">
+				<li class="span3">
+				  <div class="thumbnail">
+					<a  href="product_details.html"><img src="themes/images/products/9.jpg" alt=""/></a>
+					<div class="caption">
+					  <h5>BMW G 310 R</h5>
+					  <p> 
+						There are more than a few people who�ve been waiting for BMW to join the small-bike class. The G 310 R is their answer. The 313 cc single is good for 34 hp at 9,500 rpm and 21 lb-ft of torque at 7,500 all pushing a 159 kg (dry) chassis. 
+					  </p>
+					  <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Rent It <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
+					</div>
+				  </div>
+				</li>
+				<li class="span3">
+				  <div class="thumbnail">
+					<a  href="product_details.html"><img src="themes/images/products/10.jpg" alt=""/></a>
+					<div class="caption">
+					  <h5>Ducati xDiavel</h5>
+					  <p> 
+						It does everything a cruiser won�t. According to first impressions Ducati xDiavel will be a bruiser when it hits showroom floors. The 95 lb-ft, 1,262cc engine is equipped with MotoGP-derived Ducati Power Launch software. 
+					  </p>
+					  <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Rent It <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$199.00</a></h4>
+					</div>
+				  </div>
+				</li>
+				<li class="span3">
+				  <div class="thumbnail">
+					<a  href="product_details.html"><img src="themes/images/products/11.jpg" alt=""/></a>
+					<div class="caption">
+					  <h5>Ducati Scrambler Sixty2</h5>
+					  <p> 
+						What has 400 cc, 41 hp, Ducati Scrambler Sixty2, was one of the very popular models in 2016. The latest addition to the wildly successful Scrambler range, this new bike with its 167-kg chassis is a lot of fun . 
+					  </p>
+					   <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Rent It <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$299.00</a></h4>
+					</div>
+				  </div>
+				</li>
+			  </ul>	
+	
 
-		</div>
-		</div>
-
+	<div class="pagination">
+		<ul>
+		<li><a href="#">&lsaquo;</a></li>
+		<li><a href="special_offer.php">1</a></li>
+		<li><a href="more_offer.php">2</a></li>
+		<li><a href="#">...</a></li>
+		<li><a href="#">&rsaquo;</a></li>
+		</ul>
 	</div>
+<br class="clr"/>
+</div>
+
+</div>
+</div>
 </div>
 <!-- Footer ================================================================== -->
 	<div  id="footerSection">
@@ -238,10 +191,10 @@
 			 </div>
 			<div class="span3">
 				<h5>Customer Support</h5>
-				<a href="contact.php">Email id : info@rentabike.com</a>  
-				<a href="contact.php">Tel : +1 803-687-6777</a>  
-				<a href="contact.php">Mobile : +1 514-677-8767</a> 
-				<a href="contact.php">Fax : +1 766-877-9998</a>
+				<a href="signin.php">Email id : info@rentabike.com</a>  
+				<a href="signin.php">Tel : +1 803-687-6777</a>  
+				<a href="signin.php">Mobile : +1 514-677-8767</a> 
+				<a href="signin.php">Fax : +1 766-877-9998</a>
 			 </div>
 			<div class="span3">
 				<h5>OUR OFFERS</h5>

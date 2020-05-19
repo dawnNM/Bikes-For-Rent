@@ -36,7 +36,7 @@
 </a>
   <div class="navbar-inner">
     <a class="brand" href="index.php"><img src="themes/images/logo.png" alt="Bootsshop"/></a>
-		<form class="form-inline navbar-search" method="post" action="products.html" >
+		<form class="form-inline navbar-search" method="post" action="special_offer.php" >
 		<input id="srchFld" class="srchTxt" type="text" />
 		  <select class="srchTxt">
 			<option>All</option>
@@ -49,34 +49,11 @@
 		  <button type="submit" id="submitButton" class="btn btn-primary">Go</button>
     </form>
     <ul id="topMenu" class="nav pull-right">
-	 <li class=""><a href="special_offer.html">Specials Offer</a></li>
-	 <li class=""><a href="normal.html">Delivery</a></li>
-	 <li class=""><a href="contact.html">Contact</a></li>
+	 <li class=""><a href="special_offer.php" style="color: black">Specials Offer</a></li>
+	 <li class=""><a href="normal.php" style="color: black">Delivery</a></li>
+	 <li class=""><a href="contact.php" style="color: black">Contact</a></li>
 	 <li class="">
-	 <a href="#login" role="button" data-toggle="modal" style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>
-	<div id="login" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="false" >
-		  <div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-			<h3>Login Block</h3>
-		  </div>
-		  <div class="modal-body">
-			<form class="form-horizontal loginFrm">
-			  <div class="control-group">								
-				<input type="text" id="inputEmail" placeholder="Email">
-			  </div>
-			  <div class="control-group">
-				<input type="password" id="inputPassword" placeholder="Password">
-			  </div>
-			  <div class="control-group">
-				<label class="checkbox">
-				<input type="checkbox"> Remember me
-				</label>
-			  </div>
-			</form>		
-			<button type="submit" class="btn btn-success">Sign in</button>
-			<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-		  </div>
-	</div>
+	 <a href="signin.php" role="button" style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>
 	</li>
     </ul>
   </div>
@@ -444,7 +421,7 @@
 				<h5>OUR OFFERS</h5>
 				<a href="#">New Bikes</a> 
 				<a href="#">Popular Bikes</a>  
-				<a href="special_offer.html">Secial Offers</a>  
+				<a href="special_offer.php">Secial Offers</a>  
 				<a href="#">Brands</a> 
 			 </div>
 			<div id="socialMedia" class="span3 pull-right">

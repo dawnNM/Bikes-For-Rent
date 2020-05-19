@@ -1,4 +1,4 @@
-ï»¿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -36,7 +36,7 @@
 </a>
   <div class="navbar-inner">
     <a class="brand" href="index.php"><img src="themes/images/logo.png" alt="Bootsshop"/></a>
-		<form class="form-inline navbar-search" method="post" action="special_offer.php" >
+		<form class="form-inline navbar-search" method="post" action="more_offer.php" >
 		<input id="srchFld" class="srchTxt" type="text" />
 		  <select class="srchTxt">
 			<option>All</option>
@@ -49,7 +49,7 @@
 		  <button type="submit" id="submitButton" class="btn btn-primary">Go</button>
     </form>
     <ul id="topMenu" class="nav pull-right">
-	 <li class=""><a href="special_offer.php" style="color: black">Specials Offer</a></li>
+	 <li class="" ><a href="special_offer.php" style="color: black">Specials Offer</a></li>
 	 <li class=""><a href="normal.php" style="color: black">Delivery</a></li>
 	 <li class=""><a href="contact.php" style="color: black">Contact</a></li>
 	 <li class="">
@@ -60,7 +60,7 @@
 </div>
 </div>
 </div>
-
+<!-- Header End====================================================================== -->
 <div id="mainBody">
 	<div class="container">
 	<div class="row">
@@ -115,115 +115,70 @@
 			  </div><br/>
 	</div>
 <!-- Sidebar end=============================================== -->
-		<div class="span9">		
-
+	<div class="span9">
     <ul class="breadcrumb">
 		<li><a href="index.html">Home</a> <span class="divider">/</span></li>
-		<li class="active">Registration</li>
+		<li class="active">Special offers</li>
     </ul>
-	<h3> Registration</h3>	
-	<div class="well">
-	<!--
-	<div class="alert alert-info fade in">
-		<button type="button" class="close" data-dismiss="alert">Ã—</button>
-		<strong>Lorem Ipsum is simply dummy</strong> text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-	 </div>
-	<div class="alert fade in">
-		<button type="button" class="close" data-dismiss="alert">Ã—</button>
-		<strong>Lorem Ipsum is simply dummy</strong> text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-	 </div>
-	 <div class="alert alert-block alert-error fade in">
-		<button type="button" class="close" data-dismiss="alert">Ã—</button>
-		<strong>Lorem Ipsum is simply</strong> dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-	 </div> -->
-	<form class="form-horizontal" method="post">
-		<h4>Your personal information</h4>
-		<div class="control-group">
-			<label class="control-label" for="inputFname1">First name <sup>*</sup></label>
-			<div class="controls">
-			  <input type="text" id="inputFname1" placeholder="First Name" name="firstname" required>
-			</div>
-		 </div>
-		 <div class="control-group">
-			<label class="control-label" for="inputLnam">Last name <sup>*</sup></label>
-			<div class="controls">
-			  <input type="text" id="inputLnam" placeholder="Last Name" name="lastname" required>
-			</div>
-		 </div>
-		<div class="control-group">
-		<label class="control-label" for="input_email">Email <sup>*</sup></label>
-		<div class="controls">
-		  <input type="text" id="input_email" placeholder="Email" name="email" required>
-		</div>
-	  </div>	  
-	<div class="control-group">
-		<label class="control-label" for="inputPassword1">Password <sup>*</sup></label>
-		<div class="controls">
-		  <input type="password" id="inputPassword1" placeholder="Password" name="password" required>
-		</div>
-	  </div>	  
+	<h4> 20% Discount Special offer<small class="pull-right"> 6 Bikes are available </small></h4>	
+	<hr class="soft"/>
+	<ul class="thumbnails">
+				<li class="span3">
+				  <div class="thumbnail">
+					<a  href="product_details.html"><img src="themes/images/products/6.jpg" alt=""/></a>
+					<div class="caption">
+					  <h5>Honda CRF1000L Africa Twin</h5>
+					  <p> 
+						Honda’s ultra-serious adventure bike comes with either a manual or dual-clutch automatic transmission and a 998cc SOHC parallel twin engine. The 9.1 inches of front suspension and travel and 8.7 inches in the back, plus aluminum skid plate, compact battery/engine/oil placement and rubber-mounted handlebar mean the Africa Twin will be a heavy-duty off-road brawler. 
+					  </p>
+					 
+					  <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Rent It <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
+					</div>
+				  </div>
+				</li>
+				<li class="span3">
+				  <div class="thumbnail">
+					<a  href="product_details.html"><img src="themes/images/products/7.jpg" alt=""/></a>
+					<div class="caption">
+					  <h5>Honda VFR1200X</h5>
+					  <p> 
+						Want something that’s big and gnarly but not quite as off-road intense as the Africa Twin? You still get a DCT but the VFR1200X gets shaft drive and the VFR1200’s 1,237cc V4 engine. A suite of storage accessories and heater grips, plus power sockets for GPR, etc. make this an Iron-butt’s dream long-distance explorer. This new model is much fun to ride and has an elegant look.
 
-	<!-- <div class="alert alert-block alert-error fade in">
-		<button type="button" class="close" data-dismiss="alert">Ã—</button>
-		<strong>Lorem Ipsum is simply</strong> dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-	 </div>	 -->
-		
-		<div class="control-group">
-			<label class="control-label" for="aditionalInfo">Address <sup>*</sup></label>
-			<div class="controls">
-			  <textarea id="aditionalInfo" cols="26" rows="3" name="address" placeholder="Address" required></textarea>
-			</div>
-		</div>
-		
-		<div class="control-group">
-			<label class="control-label" for="mobile">Mobile Phone <sup>*</sup></label>
-			<div class="controls">
-			  <input type="text"  name="mobile" id="mobile" placeholder="Mobile Phone" name="mobile" required /> 
-			</div>
-		</div>
-		
-	<p><sup>*</sup>Required field	</p>
+					  </p>
+					 <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Rent It <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$199.00</a></h4>
+					</div>
+				  </div>
+				</li>
+				<li class="span3">
+				  <div class="thumbnail">
+					<a  href="product_details.html"><img src="themes/images/products/8.jpg" alt=""/></a>
+					<div class="caption">
+					  <h5>KTM 1290 Super Duke GT</h5>
+					  <p> 
+						With cornering headlights, cruise control and eight-way adjustable windscreen, the Super Duke GT is clearly aimed at the touring set. Right? Well, that depends; do the touring set also like a whopping 180+ hp, semi-active suspension and an ultra-light street brawler that will twist your face off? The GT overlaps a little with both the R and the Super Adventure, but that’s okay – riders like choice. 
+					  </p>
+					   <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Rent It <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$199.00</a></h4>
+					</div>
+				  </div>
+				</li>												
+			  </ul>	
 	
-	<div class="control-group">
-			<div class="controls">
-				<input class="btn btn-large btn-success" type="submit" name="save" value="Register" />
-			</div>
-		</div>		
-	</form>
-	<?php
-						if(isset($_POST['save'])){
-							include 'includes/config.php';
-							$firstname = $_POST['firstname'];
-							$lastname = $_POST['lastname'];
-							$email = $_POST['email'];
-							$password = $_POST['password'];
-							$address = $_POST['address'];
-							$mobile = $_POST['mobile'];
-							
-							$qry = "INSERT INTO users (firstname,lastname,email,password,address,mobile)
-							VALUES('$firstname','$lastname','$email','$password','$address','$mobile')";
-							$result = $conn->query($qry);
-							if($result == TRUE){
-								echo "<script type = \"text/javascript\">
-											alert(\"Successfully Registered.\");
-											window.location = (\"account.php\")
-											</script>";
-							} else{
-								echo "<script type = \"text/javascript\">
-											alert(\"Registration Failed. Try Again\");
-											window.location = (\"signup.php\")
-											</script>";
-							}
-						}
-						
-					  ?>
-</div>
-			
+	
 
-		</div>
-		</div>
-
+	<div class="pagination">
+		<ul>
+		<li><a href="#">&lsaquo;</a></li>
+		<li><a href="special_offer.php">1</a></li>
+		<li><a href="more_offer.php">2</a></li>
+		<li><a href="#">...</a></li>
+		<li><a href="#">&rsaquo;</a></li>
+		</ul>
 	</div>
+<br class="clr"/>
+</div>
+
+</div>
+</div>
 </div>
 <!-- Footer ================================================================== -->
 	<div  id="footerSection">
@@ -238,10 +193,10 @@
 			 </div>
 			<div class="span3">
 				<h5>Customer Support</h5>
-				<a href="contact.php">Email id : info@rentabike.com</a>  
-				<a href="contact.php">Tel : +1 803-687-6777</a>  
-				<a href="contact.php">Mobile : +1 514-677-8767</a> 
-				<a href="contact.php">Fax : +1 766-877-9998</a>
+				<a href="signin.php">Email id : info@rentabike.com</a>  
+				<a href="signin.php">Tel : +1 803-687-6777</a>  
+				<a href="signin.php">Mobile : +1 514-677-8767</a> 
+				<a href="signin.php">Fax : +1 766-877-9998</a>
 			 </div>
 			<div class="span3">
 				<h5>OUR OFFERS</h5>
