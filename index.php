@@ -50,7 +50,6 @@
     </form>
     <ul id="topMenu" class="nav pull-right">
 	 <li class=""><a href="special_offer.php" style="color: black">Specials Offer</a></li>
-	 <li class=""><a href="normal.php" style="color: black">Delivery</a></li>
 	 <li class=""><a href="contact.php" style="color: black">Contact</a></li>
 	 <li class="">
 	 <a href="signin.php" role="button" style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>
@@ -199,7 +198,7 @@
 					<a href="product_details.html"><img src="themes/images/products/b1.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Honda CRF1000L Africa Twin</h5>
-					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$299.00</span></h4>
+					  <h4><a class="btn" href="bike_details_1.php">VIEW</a> <span class="pull-right">$299.00</span></h4>
 					</div>
 				  </div>
 				</li>
@@ -209,7 +208,7 @@
 					<a href="product_details.html"><img src="themes/images/products/b2.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Honda VFR1200X</h5>
-					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$129.00</span></h4>
+					  <h4><a class="btn" href="bike_details_1.php">VIEW</a> <span class="pull-right">$129.00</span></h4>
 					</div>
 				  </div>
 				</li>
@@ -219,7 +218,7 @@
 					<a href="product_details.html"><img src="themes/images/products/b3.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>KTM 1290 Super Duke GT</h5>
-					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$199.00</span></h4>
+					   <h4><a class="btn" href="bike_details_1.php">VIEW</a> <span class="pull-right">$199.00</span></h4>
 					</div>
 				  </div>
 				</li>
@@ -229,7 +228,7 @@
 					<a href="product_details.html"><img src="themes/images/products/b4.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>BMW G 310 R</h5>
-					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$155.00</span></h4>
+					   <h4><a class="btn" href="bike_details_1.php">VIEW</a> <span class="pull-right">$155.00</span></h4>
 					</div>
 				  </div>
 				</li>
@@ -243,7 +242,7 @@
 					<a href="product_details.html"><img src="themes/images/products/5.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Ducati xDiavel</h5>
-					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$299.00</span></h4>
+					  <h4><a class="btn" href="bike_details_1.php">VIEW</a> <span class="pull-right">$299.00</span></h4>
 					</div>
 				  </div>
 				</li>
@@ -253,7 +252,7 @@
 					<a href="product_details.html"><img src="themes/images/products/6.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Ducati Scrambler Sixty2</h5>
-					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$599.00</span></h4>
+					  <h4><a class="btn" href="bike_details_1.php">VIEW</a> <span class="pull-right">$599.00</span></h4>
 					</div>
 				  </div>
 				</li>
@@ -262,7 +261,7 @@
 					<a href="product_details.html"><img src="themes/images/products/7.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Kawasaki Z800</h5>
-					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$499.00</span></h4>
+					   <h4><a class="btn" href="bike_details_1.php">VIEW</a> <span class="pull-right">$499.00</span></h4>
 					</div>
 				  </div>
 				</li>
@@ -271,7 +270,7 @@
 					<a href="product_details.html"><img src="themes/images/products/8.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Harley-Davidson Softail Slim</h5>
-					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$399.00</span></h4>
+					   <h4><a class="btn" href="bike_details_1.php">VIEW</a> <span class="pull-right">$399.00</span></h4>
 					</div>
 				  </div>
 				</li>
@@ -284,7 +283,7 @@
 					<a href="product_details.html"><img src="themes/images/products/9.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Victory Empulse TT</h5>
-					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
+					  <h4><a class="btn" href="bike_details_1.php">VIEW</a> <span class="pull-right">$222.00</span></h4>
 					</div>
 				  </div>
 				</li>
@@ -293,7 +292,7 @@
 					<a href="product_details.html"><img src="themes/images/products/10.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Suzuki GSX-R1000</h5>
-					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
+					  <h4><a class="btn" href="bike_details_1.php">VIEW</a> <span class="pull-right">$222.00</span></h4>
 					</div>
 				  </div>
 				</li>
@@ -302,7 +301,7 @@
 					<a href="product_details.html"><img src="themes/images/products/11.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Suzuki SV650</h5>
-					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
+					   <h4><a class="btn" href="bike_details_1.php">VIEW</a> <span class="pull-right">$222.00</span></h4>
 					</div>
 				  </div>
 				</li>
@@ -311,7 +310,7 @@
 					<a href="product_details.html"><img src="themes/images/products/1.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>RX3 Cyclone</h5>
-					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
+					   <h4><a class="btn" href="bike_details_1.php">VIEW</a> <span class="pull-right">$222.00</span></h4>
 					</div>
 				  </div>
 				</li>
@@ -324,7 +323,7 @@
 					<a href="product_details.html"><img src="themes/images/products/2.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Triumph Street Twin</h5>
-					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
+					  <h4><a class="btn" href="bike_details_1.php">VIEW</a> <span class="pull-right">$222.00</span></h4>
 					</div>
 				  </div>
 				</li>
@@ -333,7 +332,7 @@
 					<a href="product_details.html"><img src="themes/images/products/3.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Yamaha WR250R</h5>
-					  <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
+					  <h4><a class="btn" href="bike_details_1.php">VIEW</a> <span class="pull-right">$222.00</span></h4>
 					</div>
 				  </div>
 				</li>
@@ -342,7 +341,7 @@
 					<a href="product_details.html"><img src="themes/images/products/4.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>BMW S1000 XR</h5>
-					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
+					   <h4><a class="btn" href="bike_details_1.php">VIEW</a> <span class="pull-right">$222.00</span></h4>
 					</div>
 				  </div>
 				</li>
@@ -351,7 +350,7 @@
 					<a href="product_details.html"><img src="themes/images/products/5.jpg" alt=""></a>
 					<div class="caption">
 					  <h5>Victory Cross Country</h5>
-					   <h4><a class="btn" href="product_details.html">VIEW</a> <span class="pull-right">$222.00</span></h4>
+					   <h4><a class="btn" href="bike_details_1.php">VIEW</a> <span class="pull-right">$222.00</span></h4>
 					</div>
 				  </div>
 				</li>
@@ -377,7 +376,7 @@
 
 				<li class="span3">
 				  <div class="thumbnail">
-					<a  href="product_details.html"><img src="bikes/<?php echo $rws['image'];?>" alt=""/>
+					<a  href="bike_details_1.php"><img src="bikes/<?php echo $rws['image'];?>" alt=""/>
 						<!-- <img src="themes/images/products/6.jpg" alt=""/> --></a>
 					<div class="caption">
 					  <h5><?php echo $rws['bike_name'];?></h5>
@@ -385,7 +384,7 @@
 						<?php echo $rws['description'];?> 
 					  </p>
 					 
-					  <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Rent It <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#"><?php echo '$'.$rws['hire_cost'];?></a></h4>
+					  <h4 style="text-align:center"><a class="btn" href="bike_details_1.php"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Rent It <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#"><?php echo '$'.$rws['hire_cost'];?></a></h4>
 					</div>
 				  </div>
 				</li>

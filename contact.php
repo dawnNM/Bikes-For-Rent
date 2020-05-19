@@ -50,7 +50,6 @@
     </form>
     <ul id="topMenu" class="nav pull-right">
 	 <li class=""><a href="special_offer.php" style="color: black">Specials Offer</a></li>
-	 <li class=""><a href="normal.php" style="color: black">Delivery</a></li>
 	 <li class=""><a href="contact.php" style="color: black">Contact</a></li>
 	 <li class="">
 	 <a href="signin.php" role="button" style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>

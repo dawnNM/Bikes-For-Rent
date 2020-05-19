@@ -49,7 +49,7 @@
 		  <button type="submit" id="submitButton" class="btn btn-primary">Go</button>
     </form>
     <ul id="topMenu" class="nav pull-right">
-	 <li class="" ><a href="special_offer.php" style="color: black">Specials Offer</a></li>
+	 <li class=""><a href="special_offer.php" style="color: black">Specials Offer</a></li>
 	 <li class=""><a href="contact.php" style="color: black">Contact</a></li>
 	 <li class="">
 	 <a href="signin.php" role="button" style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>
@@ -60,6 +60,7 @@
 </div>
 </div>
 <!-- Header End====================================================================== -->
+
 <div id="mainBody">
 	<div class="container">
 	<div class="row">
@@ -98,7 +99,7 @@
 			</li>
 		</ul>
 		<br/>
-		  <div class="thumbnail">
+		<div class="thumbnail">
 			<img src="themes/images/products/panasonic.jpg" alt="New Bike to our collection"/>
 			<div class="caption">
 			  <h5>Ducati xDiavel</h5>
@@ -114,68 +115,77 @@
 			  </div><br/>
 	</div>
 <!-- Sidebar end=============================================== -->
-	<div class="span9">
+		<div class="span9">
     <ul class="breadcrumb">
-		<li><a href="index.html">Home</a> <span class="divider">/</span></li>
-		<li class="active">Special offers</li>
-    </ul>
-	<h4> 20% Discount Special offer<small class="pull-right"> 6 Bikes are available </small></h4>	
-	<hr class="soft"/>
-	
-<ul class="thumbnails">
-				<li class="span3">
-				  <div class="thumbnail">
-					<a  href="product_details.html"><img src="themes/images/products/9.jpg" alt=""/></a>
-					<div class="caption">
-					  <h5>BMW G 310 R</h5>
-					  <p> 
-						There are more than a few people who’ve been waiting for BMW to join the small-bike class. The G 310 R is their answer. The 313 cc single is good for 34 hp at 9,500 rpm and 21 lb-ft of torque at 7,500 all pushing a 159 kg (dry) chassis. 
-					  </p>
-					  <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Rent It <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
-					</div>
-				  </div>
-				</li>
-				<li class="span3">
-				  <div class="thumbnail">
-					<a  href="product_details.html"><img src="themes/images/products/10.jpg" alt=""/></a>
-					<div class="caption">
-					  <h5>Ducati xDiavel</h5>
-					  <p> 
-						It does everything a cruiser won’t. According to first impressions Ducati xDiavel will be a bruiser when it hits showroom floors. The 95 lb-ft, 1,262cc engine is equipped with MotoGP-derived Ducati Power Launch software. 
-					  </p>
-					  <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Rent It <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$199.00</a></h4>
-					</div>
-				  </div>
-				</li>
-				<li class="span3">
-				  <div class="thumbnail">
-					<a  href="product_details.html"><img src="themes/images/products/11.jpg" alt=""/></a>
-					<div class="caption">
-					  <h5>Ducati Scrambler Sixty2</h5>
-					  <p> 
-						What has 400 cc, 41 hp, Ducati Scrambler Sixty2, was one of the very popular models in 2016. The latest addition to the wildly successful Scrambler range, this new bike with its 167-kg chassis is a lot of fun . 
-					  </p>
-					   <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Rent It <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$299.00</a></h4>
-					</div>
-				  </div>
-				</li>
-			  </ul>	
-	
+    <li><a href="index.html">Home</a> <span class="divider">/</span></li>
+    <li><a href="products.html">Bikes</a> <span class="divider">/</span></li>
+    <li class="active">Bike Details</li>
+    </ul>	
+	<div class="row">	  
+			<div id="gallery" class="span3">
+            <a href="themes/images/products/large/f1.jpg" title="Fujifilm FinePix S2950 Digital Camera">
+				<img src="themes/images/products/large/3.jpg" style="width:100%" alt="Fujifilm FinePix S2950 Digital Camera"/>
+            </a>
+			<div id="differentview" class="moreOptopm carousel slide">
+                <div class="carousel-inner">
+                  <div class="item active">
+                   <a href="themes/images/products/large/f1.jpg"> <img style="width:29%" src="themes/images/products/large/f1.jpg" alt=""/></a>
+                   <a href="themes/images/products/large/f2.jpg"> <img style="width:29%" src="themes/images/products/large/f2.jpg" alt=""/></a>
+                   <a href="themes/images/products/large/f3.jpg" > <img style="width:29%" src="themes/images/products/large/f3.jpg" alt=""/></a>
+                  </div>
+                  <div class="item">
+                   <a href="themes/images/products/large/f3.jpg" > <img style="width:29%" src="themes/images/products/large/f3.jpg" alt=""/></a>
+                   <a href="themes/images/products/large/f1.jpg"> <img style="width:29%" src="themes/images/products/large/f1.jpg" alt=""/></a>
+                   <a href="themes/images/products/large/f2.jpg"> <img style="width:29%" src="themes/images/products/large/f2.jpg" alt=""/></a>
+                  </div>
+                </div>
+              <!--  
+			  <a class="left carousel-control" href="#myCarousel" data-slide="prev">â€¹</a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">â€º</a> 
+			  -->
+              </div>
+			  
+			</div>
+			<div class="span6">
+				<h3>Honda CRF 1000L Africa Twin  </h3>
+				<hr class="soft"/>						
+				<p>
+				HONDA's new CRF1000L Africa Twin is a proper adventure bike. Anyone blasting down a fast South African gravel road at 70mph. When the bike is tested in near 40-degree heat and with standard Dunlop Trailmax tyres (complete with tubes) on and the standard manual transmission bike doing the work, the bike does  impressively well.
+				</p>
+				<a class="btn btn-small pull-right" href="#detail">More Details</a>
+				<br class="clr"/>
+			<a href="#" name="detail"></a>
+			<hr class="soft"/>
+			</div>
+			
+			<div class="span9">
+            <ul id="productDetail" class="nav nav-tabs">
+              <li class="active"><a href="#home" data-toggle="tab">Bike Details</a></li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+              <div class="tab-pane fade active in" id="home">
+			  <h4>Bike Information</h4>
+                <table class="table table-bordered">
+				<tbody>
+				<tr class="techSpecRow"><th colspan="2">Bike Details</th></tr>
+				<tr class="techSpecRow"><td class="techSpecTD1">Manufacturer: </td><td class="techSpecTD2">Honda</td></tr>
+				<tr class="techSpecRow"><td class="techSpecTD1">Predecessor:</td><td class="techSpecTD2">Honda XRV650</td></tr>
+				<tr class="techSpecRow"><td class="techSpecTD1">Engine:</td><td class="techSpecTD2"> 742 cc (45.3 cu in) V-twin</td></tr>
+				<tr class="techSpecRow"><td class="techSpecTD1">Ignition type:</td><td class="techSpecTD2"> CDI with electronic advance</td></tr>
+				<tr class="techSpecRow"><td class="techSpecTD1">Suspension:</td><td class="techSpecTD2">Front: 43mm air-assisted telescopic fork, 220mm wheel travel Rear: Pro-Link 214mm wheel travel with preload and compression damping adjustment</td></tr>
+				</tbody>
+				</table>
+              </div>
+		
+		</div>
+          </div>
 
-	<div class="pagination">
-		<ul>
-		<li><a href="#">&lsaquo;</a></li>
-		<li><a href="special_offer.php">1</a></li>
-		<li><a href="more_offer.php">2</a></li>
-		<li><a href="#">...</a></li>
-		<li><a href="#">&rsaquo;</a></li>
-		</ul>
 	</div>
-<br class="clr"/>
 </div>
 
-</div>
-</div>
+		</div>
+
+	</div>
 </div>
 <!-- Footer ================================================================== -->
 	<div  id="footerSection">
